@@ -92,4 +92,4 @@ Route::group(['middleware' => 'guest'], function () {
 
 Route::get('/assessment', function () {
     return view('asses');
-})->name('login');
+});
